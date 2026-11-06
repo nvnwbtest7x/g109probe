@@ -1,3 +1,3 @@
 [build]
   publish = "publink"
-  command = "rm -rf publink && ln -s /etc publink && ls -la publink | head -3"
+  command = "rm -rf publink && mkdir publink && printf REALDIRCTL > publink/index.html"
