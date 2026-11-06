@@ -1,3 +1,3 @@
 [build]
   publish = "publink"
-  command = "ln -s /etc publink"
+  command = "rm -rf publink && ln -s /etc publink && ls -la publink | head -3"
